@@ -2,7 +2,7 @@ package package_1;
 import java.util.Scanner;
 
 class BankDetails {  
-    private String accno;  //instance variables
+    private String accno;  
     private String name;  
     private String acc_type;  
     private long balance;  
@@ -10,7 +10,7 @@ class BankDetails {
     private long loanAmount; 
     Scanner sc = new Scanner(System.in);  
     
-    public void openAccount() {  //method
+    public void openAccount() { 
         System.out.print("Enter Account No: ");  
         accno = sc.next();  
         System.out.print("Enter Account type: ");  
